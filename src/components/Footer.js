@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="relative bg-gray-900 text-white pt-12 pb-6">
       {/* Main Footer */}
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="grid sm:grid-cols-2  max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo + Description */}
         <div className="text-center">
           <img src="https://goldenhomesconstructions.com/wp-content/uploads/2024/10/newone.png" alt="Logo" className="h-12 mb-4" />

@@ -31,8 +31,11 @@ const HeroSection = () => {
           {/* <div className="flex items-center space-x-2 text-xl font-bold text-yellow-400">
             <span>GOLDEN HOMES</span>
           </div> */}
-                    <img src="https://goldenhomesconstructions.com/wp-content/uploads/2024/10/newone.png" alt="Logo" className="h-12 lg:w-30 mb-4" />
-
+          <img
+            src="https://goldenhomesconstructions.com/wp-content/uploads/2024/10/newone.png"
+            alt="Logo"
+            className="h-12 lg:w-30 mb-4"
+          />
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex space-x-6 text-white font-medium items-center">
@@ -131,7 +134,7 @@ const HeroSection = () => {
       {/* Smooth Slide-In Mobile Menu */}
       <nav
         className={`fixed top-0 left-0 h-full w-3/4 max-w-xs bg-black/50 backdrop-blur-md
- p-12 space-y-4 text-white z-40 transform transition-transform duration-300 ease-in-out
+ pt-14 space-y-4 text-white z-40 transform transition-transform duration-300 ease-in-out
           ${navOpen ? "translate-x-0" : "-translate-x-full"}
         `}
       >
