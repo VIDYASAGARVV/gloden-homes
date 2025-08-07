@@ -1,10 +1,12 @@
 import './App.css';
-import HeroSection from './HeroSection';
+import Footer from './components/Footer';
+import HeroSection from './components/HeroSection';
 
 function App() {
   return (
     <div className="App">
-   <HeroSection/>
+   <HeroSection />
+   <Footer /> 
     </div>
   );
 }
